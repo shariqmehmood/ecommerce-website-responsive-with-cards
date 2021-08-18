@@ -1,0 +1,262 @@
+body{
+    height: 500px;
+    background-image: url(background.jpg);
+    
+    
+    
+    
+    
+
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    font-family: sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    background-image: norepait();
+    
+
+}
+
+
+.signup-form-div{
+width: 250px;
+box-shadow: 0 0 3px 0(0,0,0,0.3);
+background: #fff;
+padding: 20px;
+margin: 8% auto;
+text-align: center;
+height: auto;
+
+}
+
+.signup-form-div h1{
+    color: #db1c1c;
+    margin-bottom: 30px;
+}
+
+.img{
+   height: 70px;
+    width: 80px;
+    margin-top: -100px;
+    border-radius: 55px;
+    margin-bottom: 15px;
+    border: 2px solid red;
+}
+
+.input-box{
+border-radius: 20px;
+color: red;
+padding: 10px;
+margin: 10px;
+width: 88%;
+border: 1px solid #999;
+outline: none;
+border: 2px solid red;
+}
+button{
+    color: rgb(255, 255, 255);
+    width: 88%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sing-btn,.face-btn{
+    background-color: #db1c1c;
+}
+
+a{
+    text-decoration: none;
+}
+hr{
+ 
+    width: 76%;
+}
+.or{
+    width: 30px;
+    margin: -19px auto 10px;
+    background: rgb(255, 255, 255)
+}
+
+a{
+    color: red;
+}
+
+.cardss{
+    width: 28%;
+    height: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid transparent;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: inline-block;
+  
+  }
+  .cardss:hover{
+    border: 2px solid rgb(230, 24, 24);
+
+    transition: all 0.9s;
+  }
+  
+  
+  .card-img-top  {
+      width: 270px;
+      height: 200px;
+  }
+
+ 
+@media only screen and (max-width: 950px) {
+    #imgcard{
+        width:100% ;
+        padding: 0px;
+    }
+    .cardss{
+        width: 26%;
+    }
+    
+  }
+  
+
+  @media only screen and (max-width: 640px) {
+    #imgcard{
+        width:100% ;
+        padding: 0px;
+    }
+    .cardss{
+        margin-left:45px;
+        width: 35%;
+    }
+    
+  }  
+@media only screen and (max-width: 600px) {
+    #imgcard{
+        width:100% ;
+        padding: 0px;
+    }
+    .cardss{
+        margin-left:45px;
+        width: 35%;
+    }
+    
+  }
+  
+@media only screen and (max-width: 550px) {
+    #imgcard{
+        width:100% ;
+        padding: 0px;
+    }
+    .cardss{
+        width: 33%;
+        margin-left: 45px;
+
+        
+    }
+}
+@media only screen and (max-width: 410px) {
+    #imgcard{
+        width:98%;
+        padding: 0px;
+    }
+    .cardss{
+        width: 40%;
+        margin-left: 10px;
+        
+    }
+   
+}@media only screen and (max-width: 350px) {
+    #imgcard{
+        width:98%;
+        padding: 0px;
+    }
+    .cardss{
+        width: 70%;
+        margin-left: 30px;
+        
+    }
+   
+}
+
+.link{
+    margin-left: 420px;
+    color: rgb(19, 18, 18);
+   border: 2px solid transparent;
+}
+.link:hover{
+
+    border-left: 2px solid rgb(24, 20, 20);
+    border-right: 2px solid rgb(24, 20, 20);
+    border-bottom: 2px solid rgb(24, 20, 20);
+    cursor: pointer;
+}
+@media only screen and (max-width: 1025px) {
+    .link{
+margin-left: 420px;
+    }
+    
+    
+   } 
+   @media only screen and (max-width: 900px) {
+    .link{
+margin-left:350px ;
+    }
+    
+    
+   }
+   @media only screen and (max-width: 785px) {
+    .link{
+        margin-left:320px ;
+    }
+    
+    
+    }
+    @media only screen and (max-width: 720px) {
+        .link{
+            margin-left:290px ;
+
+        }
+        
+        
+    } 
+    @media only screen and (max-width: 650px) {
+        .link{
+            margin-left:250px ;
+
+        }
+        
+        
+    }  
+    @media only screen and (max-width: 560px) {
+        .link{
+margin-left: 200px;
+        }
+        
+        
+    } 
+    @media only screen and (max-width: 485px) {
+        .link{
+margin-left: 150px;
+        }
+        
+        
+    }
+    @media only screen and (max-width: 375px) {
+     .link{
+margin-left: 100px;
+     }
+     
+
+    }
+    @media only screen and (max-width: 280px) {
+        .link{
+   margin-left: 60px;
+        }
+        
+   
+       }
